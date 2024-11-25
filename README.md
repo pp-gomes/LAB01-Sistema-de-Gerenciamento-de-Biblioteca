@@ -19,6 +19,9 @@ Este sistema gerencia livros e empréstimos de uma biblioteca.
 
 ## Como executar
 
-1. Compile o arquivo TypeScript:
+1. Compile os arquivos TypeScript:
    ```bash
-   tsc biblioteca.ts
+   tsc biblioteca.ts teste-biblioteca.ts
+2. Execute apenas o arquivo de teste (teste-biblioteca.js) no Node.js:
+    ```bash
+   node teste-biblioteca.js
